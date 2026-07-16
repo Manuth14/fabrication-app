@@ -1,7 +1,7 @@
 "use client";
 import { UploadButton } from "@uploadthing/react";
 import { useState } from "react";
-import { addProductAction } from "@/src/actions/product"; // මේක අනිවාර්යයි
+import { addProductAction } from "@/src/actions/product";
 import { OurFileRouter } from "../../api/uploadthing/core";
 
 export default function UploadForm() {

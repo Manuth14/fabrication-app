@@ -12,3 +12,5 @@ export const ourFileRouter = {
       console.log("File URL:", file.url);
     }),
 } satisfies FileRouter;
+
+export type OurFileRouter = typeof ourFileRouter;
